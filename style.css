@@ -41,3 +41,14 @@ body {
   text-decoration: none;
   color: white;
 }
+
+.premium {
+  background-color: rgb(29, 117, 222); 
+  color: white;
+  padding: 72px 0 40px 0;
+}
+
+.premium-content {
+  width: 60%;
+  margin: auto;
+}
