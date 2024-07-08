@@ -52,3 +52,26 @@ body {
   width: 60%;
   margin: auto;
 }
+
+.premium-content h1 {
+  font-size: 30px;
+}
+
+.premium-content h2 {
+  font-size: 20px;
+  font-weight: 300px;
+}
+
+.premium-content h1, .premium-content h2 {
+  padding-bottom: 30px;
+}
+
+.premium-content a {
+  color: white;
+}
+
+.premium-content p {
+  padding-top: 20px;
+  font-size: 10px;
+  font-weight: normal;
+}
