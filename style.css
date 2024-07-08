@@ -10,4 +10,14 @@ body {
 .header {
   background-color: black;
   color: white;
+  width: 60%;
+  margin: auto;
+}
+
+.header-container {
+  background-color: black;
+}
+
+.header img {
+  width: 200px  
 }
