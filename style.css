@@ -17,6 +17,9 @@ body {
 .header-container {
   background-color: black;
   padding: 14px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
 }
 
 .header img {
@@ -52,7 +55,7 @@ body {
 .premium {
   background-color: rgb(29, 117, 222); 
   color: white;
-  padding: 72px 0 40px 16px;
+  padding: 140px 0 40px 16px;
 }
 
 .premium-content {
@@ -90,6 +93,8 @@ body {
   font-size: 11px;
   font-weight: 600;
   opacity: 0.9;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .comece-agora {
@@ -116,7 +121,7 @@ body {
 .why-premium div {
   display: inline-block;
   margin: 20px;
-  padding-bottom: 45px;
+  padding-bottom: 35px;
 }
 
 .why-premium h2 {
@@ -126,5 +131,119 @@ body {
 }
 
 .why-premium img {
-  padding: 15px;
+  padding: 13px;
+}
+
+.footer {
+  background-color: #efefef;
+  text-align: center;
+  height: 580px;
+}
+
+.footer h2 {
+  padding-top: 45px;
+
+  font-size: 30px;
+}
+
+.footer h3 {
+  margin-top: 19px;
+  font-size: 15px;
+}
+
+.footer div {
+  display: inline-block;
+  margin: auto;
+  margin-top: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.favorites-bands {
+  background-color: white;
+  width: 300px;
+  margin: auto;
+  margin-top: 30px;
+  border-radius: 11px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  height: 300px;
+}
+
+.favorites-bands h2 {
+  padding-top: 20px;
+  font-size: 28px;
+  padding-bottom: 20px;
+  color: green;
+  position: relative;
+  left: -40px;
+  
+}
+
+.favorites-bands ol {
+  list-style-type: none;
+}
+
+.favorites-bands a {
+  text-decoration: none;
+  color: black;
+}
+
+.favorites-bands img{
+  width: 80px;
+  position: relative;
+  left: -100px;
+  top: 10px;
+
+}
+
+.favorites-bands li{
+  margin-left: 12px;
+  font-size: 13px;
+  line-height: 20px;
+  position: relative;
+  left: -60px;
+  top: -15px;
+}
+button {
+  margin: 60px 0px;
+  border: none;
+  background-color: #ffd2d7;
+  padding: 15px 45px;
+  border-radius: 30px;
+  font-family: "Montserrat", sans-serif;
+  width: 220px;
+  
+}
+
+#individual {
+  position: relative;
+  left: -60px;
+}
+
+#duo {
+  position: relative;
+  left: -107px;
+}
+
+#gratis {
+  position: relative;
+  left: -90px;
+}
+
+.btn-grad {
+  background-image: linear-gradient(to right, #52c234 0%, #061700  51%, #52c234  100%);
+  
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;            
+  box-shadow: 0 0 20px #eee;
+  border-radius: 30px;
+ 
+}
+
+.btn-grad:hover {
+  background-position: right center; /* change the direction of the change here */
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
 }
