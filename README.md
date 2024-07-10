@@ -1,4 +1,6 @@
 # Clone Spotify 🎵
 
-Este é um projeto pessoal de clonagem do site do Spotify, criado com o objetivo de aprendizado.<br>
-Envolve o conceito HTML e _CSS_.
+Este é um projeto pessoal de personalização do site do <strong>_Spotify_</strong>, criado com o objetivo de aprendizado.<br>
+Envolve o conceito HTML e _CSS_, Classes, Ids, Pseudo-classes.
+
+> 🌐 Acessem o projeto online [aqui](https://alissonooliveiraofc.github.io/trybe-spotify-clone/)!
