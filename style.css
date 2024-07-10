@@ -211,7 +211,7 @@ button {
   border-radius: 30px;
   font-family: "Montserrat", sans-serif;
   width: 220px;
-  
+  font-weight: bold;
 }
 
 #individual {
