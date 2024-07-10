@@ -10,19 +10,20 @@ body {
 .header {
   background-color: black;
   color: white;
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 
 .header-container {
   background-color: black;
+  padding: 14px;
 }
 
 .header img {
-  width: 100px;
+  width: 127px;
   padding: 15px 0;
   vertical-align: middle;
-  padding: 10px 0;
+  padding: 7px 0;
 }
 
 .header ul{
@@ -39,6 +40,10 @@ body {
   padding-right: 20px;
 }
 
+.header a:hover{
+  color: #1ed760;
+}
+
 .header a {
   text-decoration: none;
   color: white;
@@ -47,11 +52,11 @@ body {
 .premium {
   background-color: rgb(29, 117, 222); 
   color: white;
-  padding: 72px 0 40px 0;
+  padding: 72px 0 40px 16px;
 }
 
 .premium-content {
-  width: 80%;
+  width: 85%;
   margin: auto;
 }
 
@@ -84,12 +89,42 @@ body {
   padding: 12px 20px;
   font-size: 11px;
   font-weight: 600;
+  opacity: 0.9;
 }
 
 .comece-agora {
   background-color: black;
 }
 
+.comece-agora:hover, .ver-planos:hover {
+  padding: 15px 27px;
+  opacity: 1;
+}
+
 .ver-planos {
   border: 1px solid white;
+}
+
+.ver-planos:hover {
+  background-color: #175DB1;
+}
+
+.why-premium {
+  text-align: center;
+}
+
+.why-premium div {
+  display: inline-block;
+  margin: 20px;
+  padding-bottom: 45px;
+}
+
+.why-premium h2 {
+  padding-top: 45px;
+  font-size: 30px;
+  margin-bottom: 45px;
+}
+
+.why-premium img {
+  padding: 15px;
 }
